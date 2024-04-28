@@ -3,7 +3,8 @@ import '../styles/Login.css'
 
 export function Login() {
     return(
-                <div className="formulario">
+        <section className="Pform">
+         <div className="formulario">
                     
                     <h1>Login</h1>
                     
@@ -21,12 +22,13 @@ export function Login() {
                         </div>
 
                         <button>Login</button>
-                    
+            
                     </div>
-
                     <Link to="/">Volver al inicio</Link> 
-                
-                </div>
+               </div>
+
+            </section>
+
     )
 }
 

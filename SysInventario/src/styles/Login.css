@@ -1,10 +1,10 @@
-:root {
+/*:root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
     color-scheme: light dark;
-  
+    
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -16,10 +16,10 @@
     --input-color: #d8d2d2;
     --alt-color: #7EB0CC;
 
-}
+}*/
 
 
-input{
+.formulario input{
     color: #45446e;
     border-radius: 0.4rem;
     background-color: #d8d2d2;
@@ -27,14 +27,15 @@ input{
     border-style: none;
 }
 
-body {
-    margin: 0;
-    display: flex;
-    min-width: 320px;
-    min-height: 90vh;
+.Pform{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to bottom right, var(--alt-color), var(--font-color));
 }
-
-
 
 .formulario{
     border-radius: 0.5rem;
@@ -42,8 +43,8 @@ body {
     display: flex;
     flex-direction: column; 
     text-align: center;
-    min-height: 300px;
-    min-width: 300px;
+    height: 300px;
+    width: 300px;
     padding: 2rem;
     background-color: #fff;
 }
@@ -67,7 +68,8 @@ body {
     
 }
 
-button{
+.formulario button{
+    color: #fff;
     border-style: none;
     background-color: #2D2C55;
     border-radius: 0.4rem;
@@ -77,7 +79,7 @@ button{
     transition: ease 350ms;
 }
 
-button:hover{
+.formulario button:hover{
 
     background-color: #7EB0CC;
     box-shadow: 0px 10px 40px #2D2C55;

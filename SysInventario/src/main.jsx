@@ -4,7 +4,7 @@ import { Login } from './pages/Login.jsx'
 import { App } from './App.jsx'
 import { Dashboard } from './pages/Dashboard.jsx'
 import { createBrowserRouter, Route, createRoutesFromElements,RouterProvider } from 'react-router-dom'
-import {HomePage} from './pages/Homepage.jsx'
+import HomePage from './pages/Homepage.jsx'
 //import './styles/index.css' (ESTILOS MAIN DE LA PAGINA)
 
 const Router = createBrowserRouter(

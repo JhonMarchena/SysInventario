@@ -6,15 +6,27 @@
   --input-color: #d8d2d2;
   --alt-color: #7EB0CC;
 
-  max-width: 1280px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 0rem;
-  background-color: var(--alt-color); 
   text-align: center;
   
   color: var(--font-color); 
   font-weight: 300;
   font-size: 1rem;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 
 ul{
