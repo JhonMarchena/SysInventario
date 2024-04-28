@@ -1,0 +1,90 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --form-color: #ffff;
+    --button-color: #45446e;
+    --font-color: #2D2C55;
+    --input-color: #d8d2d2;
+    --alt-color: #7EB0CC;
+
+}
+
+
+input{
+    color: #45446e;
+    border-radius: 0.4rem;
+    background-color: #d8d2d2;
+    height: 30px;
+    border-style: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 90vh;
+}
+
+
+
+.formulario{
+    border-radius: 0.5rem;
+    color: #2D2C55;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    min-height: 300px;
+    min-width: 300px;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.show-pass{
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+  
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 0.1rem;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    border-style: none;
+    background-color: #2D2C55;
+    border-radius: 0.4rem;
+    height: 35px;
+    margin-top: 0.7rem;
+    font-size: medium;
+    transition: ease 350ms;
+}
+
+button:hover{
+
+    background-color: #7EB0CC;
+    box-shadow: 0px 10px 40px #2D2C55;
+    color: #2D2C55;
+
+}
+
+div .inputs {
+    text-align: left;
+}
