@@ -1,12 +1,32 @@
+import { useState } from 'react'
+import {BrowserRouter, Link} from 'react-router-dom'
 import React from 'react'
-import HomePage from './pages/HomePage'
+import './styles/App.css'
 
-function App() {
+export function App() {
   return (
-    <div>
-    <HomePage/>      
-    </div>
+    <>
+      
+        <ul>
+          <li>
+            <Link to='/Login'>Ir al Login</Link>
+          </li>
+          
+          <li>
+            <Link to='/Dashboard'>Ir al Dashboard</Link>
+          </li>
+
+          <li>
+            <Link to='/Homepage'>Ir al Homepage</Link>
+          </li>
+
+          {/*
+          <li>
+            <Link to='/Landing'>Ir al Landing</Link>
+          </li>
+          */}
+
+        </ul>
+    </>
   )
 }
-
-export default App

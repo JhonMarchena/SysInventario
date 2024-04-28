@@ -1,14 +1,16 @@
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import '../styles/homepage.css';
+import {Link} from 'react-router-dom'
 import React from 'react'
+import '../styles/homepage.css';
 
-function homepage(){
+function HomePage(){
   return (
     <>
     <Navbar/>
+    <Link to="/">Volver al inicio</Link> 
     </>
   )
 }
 
-export default homepage
+export default HomePage
