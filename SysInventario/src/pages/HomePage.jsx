@@ -1,6 +1,7 @@
 import Footer from "../components/footer";
 import Navbar from '../components/navbar';
-import {Link} from 'react-router-dom'
+import MainHp from "../components/mainhp";
+import {Link} from 'react-router-dom';
 import React from 'react'
 import '../styles/homepage.css';
 
@@ -8,6 +9,7 @@ function HomePage(){
   return (
     <>
     <Navbar/>
+    <MainHp/>
     <Link to="/">Volver al inicio</Link> 
     </>
   )

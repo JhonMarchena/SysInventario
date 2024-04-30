@@ -24,7 +24,7 @@ export function Login() {
                         <button>Login</button>
             
                     </div>
-                    <Link to="/">Volver al inicio</Link> 
+                    <section className='links'><Link to="/" className='fontlink'>Volver al inicio</Link></section>
                </div>
 
             </section>

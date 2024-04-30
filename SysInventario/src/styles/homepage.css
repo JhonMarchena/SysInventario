@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-*{
---colorbackground1: #252440;
---colorfont1: #000000;
---colorfont2: #FFFFFF;
---stylefont1: "Roboto", sans-serif;
-}
-
 
 .nav{
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: var(--colorbackground1);
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #letternv {
+    display: flex;
+    margin: 0.5rem;
     color: var(--colorfont2);
     font-family: var(--stylefont1);
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.fontmain{
+    color: var(--colorfont2);
 }
