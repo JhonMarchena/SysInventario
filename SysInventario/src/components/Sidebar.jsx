@@ -5,6 +5,7 @@ import 'boxicons'
 export function Sidebar() {
 
     return(
+        
         <aside className="sidebar">
             <h1>InvSys</h1>
             
