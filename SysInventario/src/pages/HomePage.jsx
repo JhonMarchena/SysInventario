@@ -7,11 +7,11 @@ import '../styles/homepage.css';
 
 function HomePage(){
   return (
-    <>
+    <div className="BodyHP">
     <Navbar/>
     <MainHp/>
     <Link to="/">Volver al inicio</Link> 
-    </>
+    </div>
   )
 }
 

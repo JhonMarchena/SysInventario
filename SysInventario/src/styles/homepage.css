@@ -3,18 +3,31 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: end;
 }
 
 #letternv {
     display: flex;
-    margin: 0.5rem;
+    margin: 1.0rem;
     color: var(--colorfont2);
     font-family: var(--stylefont1);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .fontmain{
+    display: flex;
+    flex-direction: column;
     color: var(--colorfont2);
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.BodyHP {
+    background-image: url("../assets/layered-waves-haikei.svg");
+    background-size: cover;
+    height: 100dvh;
+    width: 100dvw;
+    background-position: center center;
 }
