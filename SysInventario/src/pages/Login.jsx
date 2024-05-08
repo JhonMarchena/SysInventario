@@ -11,7 +11,7 @@ export function Login() {
                     <div className='form-content'>
 
                         <div className='inputs'>
-                            <label htmlFor="">Usuario</label>
+                            <label>Usuario</label>
                             <input type="text" required/>
                         </div>
 
