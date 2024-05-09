@@ -1,14 +1,14 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import '../styles/homepage.css'
 
 function Navbar() {
   return (
     <>
     <header className="nav">
-      <h1 id="letternv">Home</h1>
-      <h1 id="letternv">Reports</h1>
-      <h1 id="letternv">Usuario</h1>
+     <Link to="/Homepage" className="letternv"> Home </Link> 
+     <Link to="/" className="letternv">Reports</Link>
+     <Link to="/Login" className="letternv">Usuario</Link>
     </header>
     </>
   )
