@@ -8,8 +8,10 @@ function HomePage(){
   return (
     <div className="BodyHP">
     <Navbar/>
+    <section className="mainhp">
     <MainHp/>
-
+    <Footer/>
+    </section>
     </div>
   )
 }

@@ -10,9 +10,7 @@ function mainhp() {
     <h1>Sys</h1>
     <h1 style={{color:"#7EB0CC"}}> Inventario</h1>
     </span>
-    <Link to="/" className="link">Volver al inicio</Link>
     </section>
-     
     </>
   )
 }
