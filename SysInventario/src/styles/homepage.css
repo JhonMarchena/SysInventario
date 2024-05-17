@@ -22,7 +22,6 @@
     font-family: var(--stylefont1);
     font-size: 20px;
     text-decoration: none;
-    text-decoration-color: aquamarine;
     transition: ease 350ms;
 }
 
@@ -76,14 +75,34 @@
 }
 
 .namesc h1 {
-margin: 0px;
-font-size: 30px;
+    margin: 0px;
+    font-size: 30px;
 }
 
-.footerhp h2{
-    margin: 5px;
+/*ICONOS*/
+.iconsc{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
+.iconsc svg{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 30px;
+    transition: ease 350ms;
+}
+
+.iconsc svg:hover{
+    color: var(--alt-color);
+    transform: scale(1.4);
+    transform-origin: bottom;
+}
+
+.iconlink{
+    text-decoration: none;
+    color: white;
+}
 
 /*BACKGROUND (FONDO DE PANTALLA)*/
 .BodyHP {
