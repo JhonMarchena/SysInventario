@@ -16,9 +16,9 @@ function Footer() {
       <h2>Frontend Developer</h2>
       </span>
       <span className="iconsc">
-      <LinkedInIcon/>
-      <GitHubIcon/>
-      <InstagramIcon/>
+      <Link to={""} className='iconlink' target='blank'><LinkedInIcon/></Link>
+      <Link to={"https://github.com/LuisCal14"} className='iconlink' target='blank'><GitHubIcon/></Link>
+      <Link to={"https://www.instagram.com/lacrz.14"} className='iconlink' target='blank'><InstagramIcon/></Link>
       </span>
       </section>
 
