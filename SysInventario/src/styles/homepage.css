@@ -1,3 +1,9 @@
+/*REPONSIVE DESIGN*/
+@media (max-width: 800px) {
+
+
+}
+
 /*NAVBAR HOMEPAGE*/
 .nav{
     position: fixed;
@@ -47,74 +53,13 @@
     flex-direction: row;
 }
 
-/*FOOTER HOMEPAGE*/
-.footerhp{
-    display: flex;
-    background-color: var(--font-color2);
-    width: 100%;
-    flex-direction: column;
-    
-}
-
-.footerhp section{
-    display: flex;
-    padding: 50px;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--colorfont2);
-}
-
-.luissc{
-    border-bottom: 10px solid;
-    border-color: var(--font-color);
-}
-
-.namesc{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.namesc h1 {
-    margin: 0px;
-    font-size: 30px;
-}
-
-.namesc h2 {
-    margin: 0px;
-}
-
-/*ICONOS*/
-.iconsc{
-display: flex;
-justify-content: center;
-gap: 10px;
-align-items: center;
-}
-
-.iconsc svg{
-    font-size: 40px;
-    transition: ease 350ms;
-}
-
-.iconsc svg:hover{
-    color: var(--alt-color);
-    transform: scale(1.4);
-    transform-origin: bottom;
-}
-
-.iconlink{
-    text-decoration: none;
-    color: white;
-}
-
 /*BACKGROUND (FONDO DE PANTALLA)*/
 .BodyHP {
     display: flex;
     position: relative;
     background-image: url("../assets/layered-waves-haikei.svg");
     background-size: cover;
-    height: 180dvh;
+    height: 100dvh;
     width: 100dvw;
     justify-content: center;
     align-items: center;

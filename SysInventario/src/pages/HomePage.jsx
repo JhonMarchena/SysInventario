@@ -1,4 +1,3 @@
-import Footer from "../components/footer";
 import Navbar from '../components/navbar';
 import MainHp from "../components/mainhp";
 import React from 'react'
@@ -9,7 +8,6 @@ function HomePage(){
     <div className="BodyHP">
     <Navbar/>
     <MainHp/>
-    <Footer/>
     </div>
   )
 }
