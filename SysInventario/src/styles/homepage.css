@@ -1,8 +1,16 @@
 /*REPONSIVE DESIGN*/
-@media (max-width: 800px) {
+@media (max-width: 480px){
+    .nav{ 
+    justify-content: center;
+    }
 
+    .fontmain .title{
+    font-size: 30px;
+    }
 
 }
+
+
 
 /*NAVBAR HOMEPAGE*/
 .nav{
@@ -12,7 +20,6 @@
     width: 100%;
     height: 70px;
     background-color: var(--font-color) ;
-    justify-content: end;
     align-items: center;
     border-bottom: solid;
     border-color: var(--alt-color);
