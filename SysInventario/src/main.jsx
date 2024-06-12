@@ -5,6 +5,8 @@ import { App } from './App.jsx'
 import { Dashboard } from './pages/Dashboard.jsx'
 import { createBrowserRouter, Route, createRoutesFromElements,RouterProvider } from 'react-router-dom'
 import HomePage from './pages/Homepage.jsx'
+import AboutUs  from './pages/AboutUs.jsx'
+
 //import './styles/index.css' (ESTILOS MAIN DE LA PAGINA)
 
 const Router = createBrowserRouter(
@@ -14,6 +16,7 @@ const Router = createBrowserRouter(
     <Route path='/Login' element={<Login />} />
     <Route path='/Dashboard' element={<Dashboard />} />
     <Route path='/HomePage' element={<HomePage />} />
+    <Route path='/AboutUs' element={<AboutUs />} />
     </>
   )
 )

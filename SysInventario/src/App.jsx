@@ -20,6 +20,9 @@ export function App() {
             <Link to='/Homepage'>Ir al Homepage</Link>
           </li>
 
+          <li>
+            <Link to='/AboutUs'>Ir al About Us</Link>
+          </li>
           {/*
           <li>
             <Link to='/Landing'>Ir al Landing</Link>
