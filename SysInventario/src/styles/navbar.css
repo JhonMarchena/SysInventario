@@ -11,7 +11,7 @@
 
 /*NAVBAR HOMEPAGE*/
 .nav{
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -23,7 +23,6 @@
     z-index: 100;
     top: 0;
     right: 0;
-   
 }
 
 .letternv {

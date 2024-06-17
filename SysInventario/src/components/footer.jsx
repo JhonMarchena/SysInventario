@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
     <footer className='footerhp'>
-      <section className="luissc">
+    {/*<section className="luissc">
       <span className='namesc'>
       <h1>Luis Calderon</h1>
       <h2>Frontend Developer</h2>
@@ -20,7 +20,7 @@ function Footer() {
       <Link to={"https://github.com/LuisCal14"} className='iconlink' target='blank'><GitHubIcon/></Link>
       <Link to={"https://www.instagram.com/lacrz.14"} className='iconlink' target='blank'><InstagramIcon/></Link>
       </span>
-      </section>
+      </section>*/}
 
       <section className="jhonsc">
       <span className='namesc'>
