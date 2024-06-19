@@ -3,7 +3,7 @@ import "../styles/aboutus.css";
 
 function mainau() {
   return (
-    <div className="main">
+    <>
       <section className="conteinermn">
         <section className="conteiner1">
           <h1>Lo que hago</h1>
@@ -27,7 +27,7 @@ function mainau() {
           </h2>
         </section>
       </section>
-    </div>
+    </>
   );
 }
 

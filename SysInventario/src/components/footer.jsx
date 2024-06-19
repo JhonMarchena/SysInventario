@@ -9,7 +9,7 @@ import '../styles/footer.css'
 function Footer() {
   return (
     <>
-    <footer className='footerhp'>
+    <footer className='footer'>
     {/*<section className="luissc">
       <span className='namesc'>
       <h1>Luis Calderon</h1>

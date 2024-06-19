@@ -5,11 +5,11 @@ import Footer from '../components/footer'
 
 function AboutUs() {
   return (
-    <>
+    <div className="BodyAU">
     <Navbar/>
     <MainAU/>
-    <Footer />
-    </>
+    <Footer/>
+    </div>
   )
 }
 
