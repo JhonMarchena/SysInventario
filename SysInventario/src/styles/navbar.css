@@ -1,15 +1,4 @@
-/*REPONSIVE DESIGN*/
-@media (min-width: 319px) and (max-width: 480px){
-    .nav{ 
-    justify-content: center;
-    }
-
-    .fontmain .title{
-    font-size: 30px;
-    }
-}
-
-/*NAVBAR HOMEPAGE*/
+/*NAVBAR*/
 .nav{
     position: sticky;
     display: flex;
@@ -20,7 +9,6 @@
     align-items: center;
     border-bottom: solid;
     border-color: var(--alt-color);
-    gap: 10px;
     z-index: 100;
     top: 0;
     right: 0;

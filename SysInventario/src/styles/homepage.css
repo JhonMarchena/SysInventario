@@ -1,5 +1,13 @@
 /*REPONSIVE DESIGN*/
+@media (min-width: 319px) and (max-width: 480px){
+    .nav{ 
+    justify-content: center;
+    }
 
+    .fontmain .title{
+    font-size: 30px;
+    }
+}
 
 /*MAIN HOMEPAGE*/
 .fontmain{

@@ -1,5 +1,5 @@
 .BodyAU {
-  position: relative;
+ 
   display: flex;
   width: 100dvw;
   height: 150dvh;
@@ -11,10 +11,13 @@
 }
 
 .conteinermn {
+  position: relative;
   display: flex;
   width: 100%;
   height: 100%;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: var(--colorfont2);
   margin: 0px;
   gap: 50px;
@@ -25,10 +28,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 30px 50px;
+  width: 90%;
+  padding: 20px;
   background-color: var(--button-color);
   border-radius: 60px 60px 60px 0px ;
-  margin: 20px;
+  box-shadow: 10px 10px 30px black  ;
+  margin: 0px;
 }
 
 .conteiner2 {
@@ -36,37 +41,42 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  padding: 0 0 30px 50px;
+  width: 90%;
+  padding: 20px ;
   background-color: var(--button-color);
   border-radius: 60px 60px 0px 60px;
-  margin: 20px;
+  box-shadow: 10px 10px 30px black  ;
+  margin: 0px;
 }
 
 /*CONTENEDOR 1*/
 .conteiner1 h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 0px;
   width: 33.33%;
-  color: ;
+  color: var(--alt-color);
 }
 
 .conteiner1 h2 {
   flex-wrap: wrap;
   margin: 0;
   width: 66.66%;
-  text-align: start;
+  font-size: 22px;
+  text-align: left;
 }
 
 
 /*CONTENEDOR 2*/
 .conteiner2 h1 {
-  font-size: 40px;
-  flex-wrap: wrap;
+  font-size: 35px;
+  margin: 0px;
   width: 33.33%;
+  color: var(--alt-color);
 }
 
 .conteiner2 h2 {
   width: 66.66%;
-  text-align: end;
-
+  flex-wrap: wrap;
+  font-size: 22px;
+  text-align: right;
 }
