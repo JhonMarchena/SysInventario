@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/aboutus.css";
+import Footer from "./footer";
 
 function mainau() {
   return (
@@ -27,6 +28,7 @@ function mainau() {
           </h2>
         </section>
       </section>
+      
     </>
   );
 }

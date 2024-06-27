@@ -1,13 +1,13 @@
 :root {
   /*variables*/
   --button-color: #45446e;
-  --font-color: #2D2C55;
+  --font-color: #2d2c55;
   --font-color2: #222240;
   --input-color: #d8d2d2;
-  --alt-color: #7EB0CC;
-  --alt-color2: #95D9FF;
+  --alt-color: #7eb0cc;
+  --alt-color2: #95d9ff;
   --colorfont1: #000000;
-  --colorfont2: #FFFFFF;
+  --colorfont2: #ffffff;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -19,11 +19,11 @@
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
-  
-  color: var(--font-color); 
+
+  color: var(--font-color);
   font-weight: 300;
   font-size: 1rem;
-  background-color: #2D2C55;
+  background-color: #2d2c55;
 }
 
 body {
@@ -33,19 +33,20 @@ body {
   min-height: 100vh;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-li{
+li {
   transition: ease 0.3s;
 }
 
-li:hover{
+li:hover {
   color: var(--font-color);
   text-shadow: 0px 5px 20px var(--font-color);
 }
 
-
-
-
+.divcontainer {
+  height: 100dvh;
+  overflow: hidden;
+}

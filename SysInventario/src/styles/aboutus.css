@@ -1,10 +1,9 @@
 .BodyAU {
- 
   display: flex;
-  width: 100dvw;
-  height: 150dvh;
+  width: 100%;
+  min-height: 100dvh;
   flex-direction: column;
-  background-image: url('../assets/blob-scene-haikei-ballons.svg');
+  background-image: url("../assets/blob-scene-haikei-ballons.svg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -31,9 +30,9 @@
   width: 90%;
   padding: 20px;
   background-color: var(--button-color);
-  border-radius: 60px 60px 60px 0px ;
-  box-shadow: 10px 10px 30px black  ;
-  margin: 0px;
+  border-radius: 60px 60px 60px 0px;
+  box-shadow: 10px 10px 30px black;
+  margin-top: 30px;
 }
 
 .conteiner2 {
@@ -42,11 +41,11 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  padding: 20px ;
+  padding: 20px;
   background-color: var(--button-color);
   border-radius: 60px 60px 0px 60px;
-  box-shadow: 10px 10px 30px black  ;
-  margin: 0px;
+  box-shadow: 10px 10px 30px black;
+  margin-bottom: 30px;
 }
 
 /*CONTENEDOR 1*/
@@ -64,7 +63,6 @@
   font-size: 22px;
   text-align: left;
 }
-
 
 /*CONTENEDOR 2*/
 .conteiner2 h1 {

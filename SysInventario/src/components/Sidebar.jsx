@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import '../styles/Sidebar.css'
-import 'boxicons'
 
 export function Sidebar() {
 
@@ -12,9 +11,6 @@ export function Sidebar() {
                 <boxi-con type="solid" name="dashboard"></boxi-con>
                 <p>Dashboard</p>
             </Link>
-
-
         </aside>
     )
-
 }
