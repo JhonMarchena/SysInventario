@@ -9,18 +9,6 @@ function Footer() {
   return (
     <>
       <footer className="footer">
-        {/*<section className="luissc">
-      <span className='namesc'>
-      <h1>Luis Calderon</h1>
-      <h2>Frontend Developer</h2>
-      </span>
-      <span className="iconsc">
-      <Link to={""} className='iconlink' target='blank'><LinkedInIcon/></Link>
-      <Link to={"https://github.com/LuisCal14"} className='iconlink' target='blank'><GitHubIcon/></Link>
-      <Link to={"https://www.instagram.com/lacrz.14"} className='iconlink' target='blank'><InstagramIcon/></Link>
-      </span>
-      </section>*/}
-
         <section className="jhonsc">
           <span className="namesc">
             <h1>Jhon Marchena</h1>

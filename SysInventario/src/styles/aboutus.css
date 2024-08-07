@@ -28,7 +28,8 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  padding: 20px;
+  padding: 30px;
+  margin-bottom: 15px;
   background-color: var(--button-color);
   border-radius: 60px 60px 60px 0px;
   box-shadow: 10px 10px 30px black;
@@ -41,7 +42,7 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  padding: 20px;
+  padding: 30px;
   background-color: var(--button-color);
   border-radius: 60px 60px 0px 60px;
   box-shadow: 10px 10px 30px black;

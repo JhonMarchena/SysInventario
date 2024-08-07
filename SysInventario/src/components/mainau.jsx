@@ -27,6 +27,7 @@ function mainau() {
             mejorar y superarme a mí mismo en todos los aspectos de mi vida.
           </h2>
         </section>
+        <Footer />
       </section>
       
     </>

@@ -13,6 +13,7 @@ import mainhp from "./components/mainhp.jsx";
 import MainAU from "./components/mainau.jsx";
 import MainpageFooter from "./components/MainpageFooter.jsx"
 import MainpageNavbar from "./components/MainpageNavbar.jsx"
+import mainau from "./components/mainau.jsx";
 
 //import './styles/index.css' (ESTILOS MAIN DE LA PAGINA)
 
@@ -23,7 +24,7 @@ const Router = createBrowserRouter(
       <Route path="/Login" element={<Login />} />
       <Route path="/Dashboard" element={<Dashboard />} />
       <Route path="/HomePage" element={<MainpageNavbar Main={mainhp} />} />
-      <Route path="/AboutUs" element={<MainpageFooter Main={MainAU} />} />
+      <Route path="/AboutUs" element={<MainpageNavbar Main={mainau} />} />
     </>
   )
 );
