@@ -1,3 +1,13 @@
+@media (min-width: 319px) and (max-width: 480px){
+  .footer .namesc{
+  flex-direction: row;
+  }
+
+  .conteiner1{
+  flex-direction: column;
+  }
+}
+
 .BodyAU {
   display: flex;
   width: 100%;

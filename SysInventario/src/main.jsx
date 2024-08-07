@@ -9,11 +9,13 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-import mainhp from "./components/mainhp.jsx";
 import MainAU from "./components/mainau.jsx";
+import HomePage from "./pages/HomePage.jsx";
 import MainpageFooter from "./components/MainpageFooter.jsx"
 import MainpageNavbar from "./components/MainpageNavbar.jsx"
-import mainau from "./components/mainau.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
+
+
 
 //import './styles/index.css' (ESTILOS MAIN DE LA PAGINA)
 
@@ -23,8 +25,8 @@ const Router = createBrowserRouter(
       <Route path="/" element={<MainpageFooter Main={App} />} />
       <Route path="/Login" element={<Login />} />
       <Route path="/Dashboard" element={<Dashboard />} />
-      <Route path="/HomePage" element={<MainpageNavbar Main={mainhp} />} />
-      <Route path="/AboutUs" element={<MainpageNavbar Main={mainau} />} />
+      <Route path="/HomePage" element={<MainpageNavbar Main={HomePage} />} />
+      <Route path="/AboutUs" element={<MainpageNavbar Main={AboutUs} />} />
     </>
   )
 );

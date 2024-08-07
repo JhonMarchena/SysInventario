@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/aboutus.css";
-import Footer from "./footer";
 
-function mainau() {
+function MainAU() {
   return (
     <>
       <section className="conteinermn">
@@ -27,11 +26,9 @@ function mainau() {
             mejorar y superarme a mí mismo en todos los aspectos de mi vida.
           </h2>
         </section>
-        <Footer />
       </section>
-      
     </>
   );
 }
 
-export default mainau;
+export default MainAU;
